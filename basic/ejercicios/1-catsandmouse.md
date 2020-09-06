@@ -19,7 +19,7 @@ Desarrollar una funcion catAndMouse que devuelve una respuesta de la siguente fo
 
 > Output Cat B
 >
-> Input 1 3 2
+> Input 1 3 2   
 > 
 > ![](https://s3.amazonaws.com/hr-challenge-images/0/1480434557-601bef86ba-cat1.png)
 > 

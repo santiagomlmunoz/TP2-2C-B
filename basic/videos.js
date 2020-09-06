@@ -21,7 +21,24 @@ const str = `<ul>
   <li data-time="3:31">Flexbox Video</li>
 </ul>`;
 
+
+
 // obtener el total de segundos de los videos tipo Flexbox Video
 // Tip: convertir a un array de objetos
 // Tip2: split
 
+function getVideos(str, tipo){
+  return str
+  .replace('<ul>','')
+  .replace('</ul>','')
+  .replace('</l','asd')  
+  .split('<li')
+  .map( video =>(
+    {
+    duracion: video.split('"')[1], 
+    tipo: video.split('>')[1]
+    } 
+  ));   
+}
+
+console.log(getVideos(str, null))
